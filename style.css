@@ -1,0 +1,322 @@
+
+body{
+   
+    /* box-sizing: border-box; */
+    font-family : 'Helvetica';
+    font-size: 20px;
+    margin : 0 ; 
+    padding:  0 ;
+    background-color : #C2C2A1; 
+    background-image: url('abstract-organic-pattern-design-background-removebg-preview.png');
+    background-repeat :repeat-x  repeat-y;
+    
+}
+/*Section no 1*/
+.intro
+{
+    background:-webkit-linear-gradient(rgb(43, 43, 43) ,#C2C2A1);
+    padding-bottom: 1%;
+    
+}
+
+.icon
+{
+    width : 70px ; 
+    height : 70px;
+    margin-top: -8%;
+}
+.front-part
+{
+    display: inline-flex;
+    gap : 20px;
+    margin-left :35%;
+    margin-top : 2%;
+    margin-bottom: 0;
+}
+ 
+h3 
+{
+    font-size : 15px;
+    margin-left : 30%;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+
+h1 , h5
+{
+    margin-bottom: 0;
+    margin-top : 5px;
+}
+h2{
+    font-size : 30px;
+    
+    font-family:fantasy;
+    margin-left: 40%;
+}
+.input-tasks
+{
+    display :inline-block;
+    direction: row;
+    gap : 5px;
+    margin-left : 29%;
+    margin-top: 2%;
+    background-color: #9B9B7C;
+   
+    
+   
+}
+ul
+{
+    
+   margin-top: 2%;
+    list-style: none;
+}
+.selected
+{
+    margin-left: 29%;
+    display: flex;
+    direction: row;
+    gap  : 5% ;
+}
+
+
+
+input[type=text] ,input[type=datetime-local] , #written-input
+{
+    width: 39%;
+    height : 20%;
+    padding : 10px;
+    border: none;
+    margin: none;
+     background-color: rgba(0 , 0 , 0 ,0.5);
+    color : white;
+    text-indent : 10px ;
+    font-size: 16px;
+    
+}
+input[type=checkbox] {
+    width: 30px; 
+    height: 25px;
+  
+    
+  }
+
+  .cover-image
+  {
+    height : 30%; 
+    width  :30%;
+    float : right;
+  }
+  
+  #add-task-button 
+  {
+    width : 35px ; 
+    height : 35px;
+    
+    
+
+    
+  }
+  #written-input
+  {
+    background-color: #9B9B7C;
+    margin-top: 3%;
+    
+    width : 77% ;
+    height : 30%;
+
+  }
+  #task-list 
+  {
+    display : flex;
+    justify-content: center;
+    gap : 3px;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: -8%;
+  }
+
+  .user-input
+  {
+    display : flex ; 
+    border-bottom: rgb(0 , 0 , 0 );
+    margin-bottom : 2%;
+    gap : 5px ;
+    margin-top: 2%;
+    
+   
+    
+
+  }
+  .Image
+  {
+    width : 35px ; 
+    height : 35px;
+    cursor: pointer;
+    
+  }
+  .editicon
+  {
+    margin-left : 10%;
+    margin-right : 3%;
+  }
+  button
+  {
+    background-color: #C2C2A1;
+    margin-bottom: -10%;
+    border-radius: 10px;
+    margin-left: 1%;
+    cursor:pointer;
+    box-shadow: -3px 3px black;
+  }
+  button:hover
+  {
+    background-color: rgba(0 , 0 , 0 ,0.3);
+  }
+  .user_tasks , .user_date
+  {
+    width : 55% ; 
+    height : 46%;
+    padding : 1%;
+    border-radius: 10px;
+  }
+
+  /*Media queries for different screen sizes*/
+  @media only screen and (max-width: 390px) {
+    .cover-image
+  {
+    height : 60%; 
+    width  :60%;
+    margin-right: 8px;
+    
+  }
+  #task-list 
+  {
+    
+    gap : 2.5px;
+    margin-left: -15%;
+  }
+
+  .user_tasks , .user_date
+  {
+    width : 20% ; 
+    height : 20%;
+    
+  }
+  .icon
+{
+    width : 50px ; 
+    height : 50px;
+    margin-top: -2%;
+}
+
+.front-part
+{
+   
+   
+    margin-left :25%;
+  
+}
+ 
+h3 
+{
+    font-size : 14px;
+    margin-left : 15%;
+}
+
+h2{
+    font-size : 25px;
+    margin-left: 45%;
+}
+.intro
+{
+  width : 150%;
+}
+
+.input-tasks
+{
+   
+    gap : 3px;
+    margin-left : 20%;
+    margin-top: 2%;
+    width : 120%;
+    border-radius: 10px;
+    
+}
+#request-permission-button
+{
+  position : absolute;
+  width : 40px ; 
+  height : 40px ; 
+  margin-top : -60px;
+  margin-left  :5%;
+  margin-bottom: 20%;
+}
+#notification-bell
+{
+  width : 23px ; 
+ height : 23px;
+ 
+}
+
+input[type=text] ,input[type=datetime-local] 
+{
+    width: 30%;
+    height : 20%;
+    padding : 13px;
+    font-size: 14px;
+    
+}
+#written-input
+{
+  width : 110%;
+  height : 90%;
+  margin-top : 9%;
+  margin-left: -8%;
+  position : absolute;
+
+  
+}
+
+.user_tasks , .user_date
+{
+  width : 55% ; 
+  
+  padding : 3%;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.Image
+  {
+    width : 25px ; 
+    height : 25px;
+   
+    
+    
+  }
+  #Deletion
+  {
+      margin-left: 2%;
+  }
+  .editicon
+  {
+    margin-left: 10%;
+  }
+
+  }
+
+ 
+ 
+  
+
+  
+  
+
+
+
+
+ 
+
+     
